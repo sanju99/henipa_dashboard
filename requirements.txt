@@ -2,4 +2,3 @@ numpy
 pandas
 bokeh
 panel
-warnings

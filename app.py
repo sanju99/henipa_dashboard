@@ -12,8 +12,7 @@ import panel as pn
 
 pn.extension()
 
-import warnings
-warnings.filterwarnings("ignore")
+
 
 df = pd.read_csv('NiVCases.csv')
 

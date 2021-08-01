@@ -1,0 +1,24 @@
+,Start,End,Country,District,Cases,Deaths,Year,Cumulative Cases,Cumulative Deaths
+0,1998-09,1999-05,Malaysia,"Perak, Negeri Sembilan, Selangor ",265,105,1999,265,105
+1,1999-03,1999-03,Singapore,Singapore,11,1,1999,11,1
+2,2001-01,2001-02,India,Siliguri,66,45,2001,66,45
+3,2007-04,2007-04,India,Nadia,5,5,2007,71,50
+4,2018-05,2018-06,India,"Kozhiode,Mallapuram",18,17,2018,89,67
+5,2019-06,2019-06,India,Ernakulam,1,0,2019,90,67
+6,2001-04,2001-05,Bangladesh,Meherpur,13,9,2001,13,9
+7,2003-01,2003-01,Bangladesh,Naogaon,12,8,2003,25,17
+8,2004-01,2004-01,Bangladesh,Rajbari,31,23,2004,56,40
+9,2004-04,2004-04,Bangladesh,Faridpur ,36,27,2004,92,67
+10,2005-01,2005-03,Bangladesh,Tangail,12,11,2005,104,78
+11,2007-01,2007-02,Bangladesh,Thakurgaon,7,3,2007,111,81
+12,2007-03,2007-03,Bangladesh,Kushtia,8,5,2007,119,86
+13,2007-04,2007-04,Bangladesh,"Pabna, Natore, Naogaon ",3,1,2007,122,87
+14,2008-02,2008-02,Bangladesh,Manikgonj,4,4,2008,126,91
+15,2008-04,2008-04,Bangladesh,Rajbari,7,5,2008,133,96
+16,2009-01,2009-01,Bangladesh,"Gaibandha, Rangpur, Nilphamari, Rajbari",4,1,2009,137,97
+17,2010-02,2010-03,Bangladesh,"Faridpur, Rajbari, Gopalganj, Madaripur, Kurigram",17,15,2010,154,112
+18,2011-01,2011-02,Bangladesh,"Lalmohirhat, Dinajpur, Comilla, Nilphamari, Faridpur, Rajbari",44,40,2011,198,152
+19,2012-01,2012-01,Bangladesh,Joypurhat,12,10,2012,210,162
+20,2013-01,2013-04,Bangladesh,"Pabna, Natore, Naogaon, Gaibandha, Manikganj",24,21,2013,234,183
+21,2014-01,2014-02,Bangladesh,Bangladesh,18,9,2014,252,192
+22,2015-01,2015-02,Bangladesh,"Nilphamari, Ponchoghor, Faridpur, Magura, Naugaon, Rajbari",18,11,2015,270,203

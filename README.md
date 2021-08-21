@@ -1,3 +1,3 @@
 # henipa_dashboard
 
-Web app: https://henipa-dashboard.herokuapp.com/app
+Web App: https://henipa-dashboard.herokuapp.com/app

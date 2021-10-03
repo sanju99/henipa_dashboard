@@ -29,8 +29,8 @@ def bar_graphs(df):
     
     source = bokeh.models.ColumnDataSource(df_slice)
     
-    p.vbar(x=dodge("Country", -0.1, range=p.x_range), top="Cases", width=0.2, color="dodgerblue", legend_label="Cases", source=source)
-    p.vbar(x=dodge("Country", 0.105, range=p.x_range), top="Deaths", width=0.2, color="tomato", legend_label="Deaths", source=source)
+    p.vbar(x=dodge("Country", -0.1, range=p.x_range), top="Cases", width=0.2, color="#1f77b4", legend_label="Cases", source=source)
+    p.vbar(x=dodge("Country", 0.105, range=p.x_range), top="Deaths", width=0.2, color="darkorange", legend_label="Deaths", source=source)
     
     p.title.text_font_size = "13pt"
     p.title.align = 'center'
@@ -74,8 +74,8 @@ def cases_plot(country='Bangladesh',
     hover_tooltips = []
     
     if 'Cases' in data_lst:
-        circle_1 = bokeh.models.Circle(x="Year", y="Cases", fill_color="dodgerblue", line_color="dodgerblue", size=8)
-        line_1 = bokeh.models.Line(x="Year", y="Cases", line_color="dodgerblue")
+        circle_1 = bokeh.models.Circle(x="Year", y="Cases", fill_color="#1f77b4", line_color="#1f77b4", size=8)
+        line_1 = bokeh.models.Line(x="Year", y="Cases", line_color="#1f77b4")
         
         circle_renderer_1 = p.add_glyph(source, circle_1)
         
@@ -85,8 +85,8 @@ def cases_plot(country='Bangladesh',
         p.add_glyph(source, line_1)
         
     if 'Deaths' in data_lst:
-        circle_2 = bokeh.models.Circle(x="Year", y="Deaths", fill_color="tomato", line_color="tomato", size=8)
-        line_2 = bokeh.models.Line(x="Year", y="Deaths", line_color="tomato")
+        circle_2 = bokeh.models.Circle(x="Year", y="Deaths", fill_color="darkorange", line_color="darkorange", size=8)
+        line_2 = bokeh.models.Line(x="Year", y="Deaths", line_color="darkorange")
         
         circle_renderer_2 = p.add_glyph(source, circle_2)
         hover_renderers.append(circle_renderer_2)
